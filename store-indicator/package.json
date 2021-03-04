@@ -4,7 +4,7 @@
   "description": "apparel store indicator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx nodemon -e js,html server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/leejss/mini-project/issues"
   },
-  "homepage": "https://github.com/leejss/mini-project#readme"
+  "homepage": "https://github.com/leejss/mini-project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.1.0",
+    "nunjucks": "^3.2.0",
+    "sequelize": "^4.42.0"
+  }
 }
